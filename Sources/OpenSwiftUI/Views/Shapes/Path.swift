@@ -1,4 +1,4 @@
-import Foundation
+//import Foundation
 #if os(Linux)
 import CoreGraphicsShim
 #else
@@ -235,9 +235,9 @@ extension Path {
     
 }
 
-extension Path: Shape {
-    public func path(in _: CGRect) -> Path {
-        fatalError()
-    }
-    public typealias Body = _ShapeView<Path, ForegroundStyle>
-}
+// extension Path: Shape {
+//     public func path(in _: CGRect) -> Path {
+//         fatalError()
+//     }
+//     public typealias Body = _ShapeView<Path, ForegroundStyle>
+// }
