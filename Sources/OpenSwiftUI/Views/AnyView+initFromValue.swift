@@ -8,6 +8,11 @@ extension AnyView {
 }
 
 private struct ViewTypeEraser: ViewAssociatedTypeRequirementsVisitor {
+
+    func _test() {
+        print("ViewTypeEraser: _test()")
+    }
+
     func callAsFunction<T: View>(_ value: T) -> AnyView {
         return AnyView(value)
     }
