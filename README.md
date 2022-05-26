@@ -1,6 +1,6 @@
 # OpenSwiftUI
 
-OpenSwiftUI is an OpenSource implementation of Apple's [SwiftUI](https://developer.apple.com/documentation/swiftui) [DSL (Domain-specific language](https://en.wikipedia.org/wiki/Domain-specific_language).
+OpenSwiftUI is an OpenSource implementation of Apple's [SwiftUI](https://developer.apple.com/documentation/swiftui) [DSL (Domain-specific language)](https://en.wikipedia.org/wiki/Domain-specific_language).
 
 The project's goal is to stay close to the original API as possible.
 
@@ -159,7 +159,7 @@ Xcode 11.2 or higher is required.
 
 | Status | Name | Notes |
 | --- | --- | --- |
-| ⚠️ | `struct AnyView` | `init?(_fromValue value: Any)` missing. |
+| ✅ | `struct AnyView` | |
 | ✅ | `struct TupleView` | |
 
 ### Drawing and Animation
